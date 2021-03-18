@@ -27,8 +27,8 @@ import GHC.Generics        as Export (Generic)
 import Network.HTTP.Client as Export (RequestBody)
 import Numeric.Natural     as Export (Natural)
 import Prelude             as Export hiding (product)
-import Servant.API         as Export hiding (Headers, Link, getResponse)
-import Servant.Utils.Links as Export hiding (Link)
+import Servant.API         as Export hiding (Headers, Link, Stream, getResponse)
+import Servant.Links       as Export hiding (Link)
 import Web.HttpApiData     as Export (FromHttpApiData (..), ToHttpApiData (..))
 
 import Network.Google.Data.Bytes   as Export
